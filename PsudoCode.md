@@ -1,8 +1,8 @@
 ```cpp
-bool  Cleaning_Vessel_Heater(var SET_POINT)
+bool  Cleaning_Vessel_Heater(SET_POINT)
         while(Water Level is > Minumum Water Level)
         {
-          PID Controller(var SET_POINT)
+          PID Controller(SET_POINT)
         }
 
 void  PID(SET_POINT)
